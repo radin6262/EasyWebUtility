@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --name "WebServerInstaller" main.py --add-data "pages;pages" --add-data "utils.py;." --add-data "installer.py;." --add-data "server_manager.py;." --add-data "website_setup.py;."

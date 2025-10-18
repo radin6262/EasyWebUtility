@@ -1,0 +1,91 @@
+[2025-10-18 03:50:04] 🌐 Downloading website package from: https://drive.google.com/uc?export=download&id=1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 03:50:08] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package
+[2025-10-18 03:50:08] 📦 Extracting files...
+[2025-10-18 03:50:08] ⚠️ Unsupported file format (only .zip or .rar allowed).
+[2025-10-18 03:51:38] 🌐 Downloading website package from: https://drive.google.com/uc?export=download&id=1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 03:51:43] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package.rar
+[2025-10-18 03:51:43] 📦 Extracting files...
+[2025-10-18 03:51:43] 📦 Extracting with WinRAR: C:\Users\TGR.H\AppData\Local\Temp\website_package.rar
+[2025-10-18 03:51:43] ❌ WinRAR extraction failed: Command '['C:\\Program Files\\WinRAR\\WinRAR.exe', 'x', '-y', 'C:\\Users\\TGR.H\\AppData\\Local\\Temp\\website_package.rar', 'C:/Users/TGR.H/Desktop/Eazy Studio']' returned non-zero exit status 13.
+[2025-10-18 03:53:20] 🌐 Downloading website package from: https://drive.google.com/uc?export=download&id=1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 03:53:23] ❌ Website setup failed: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+
+but Gdown can't. Please check connections and permissions.
+Traceback (most recent call last):
+  File "C:\Users\TGR.H\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 267, in download
+    url = get_url_from_gdrive_confirmation(res.text)
+  File "C:\Users\TGR.H\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 55, in get_url_from_gdrive_confirmation
+    raise FileURLRetrievalError(
+    ...<4 lines>...
+    )
+gdown.exceptions.FileURLRetrievalError: Cannot retrieve the public link of the file. You may need to change the permission to 'Anyone with the link', or have had many accesses. Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\TGR.H\Desktop\easywebutility\website_setup.py", line 46, in setup_website
+    gdown.download(file_url, file_path, quiet=False)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\TGR.H\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 278, in download
+    raise FileURLRetrievalError(message)
+gdown.exceptions.FileURLRetrievalError: Failed to retrieve file url:
+
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
+	Check FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.
+
+You may still be able to access the file from the browser:
+
+	https://drive.google.com/uc?export=download&id=1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+
+but Gdown can't. Please check connections and permissions.
+
+[2025-10-18 03:55:25] 🌐 Downloading website package from: https://drive.google.com/uc?export=download&id=1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 03:55:35] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package
+[2025-10-18 03:55:35] ⚠️ Unsupported file format. Maybe Google Drive file is large and needs confirmation.
+[2025-10-18 03:59:00] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 03:59:09] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package
+[2025-10-18 03:59:09] ⚠️ Unsupported file format. Maybe file is large and Google Drive returned HTML instead.
+[2025-10-18 04:04:00] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:04:07] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package
+[2025-10-18 04:04:07] ⚠️ Unsupported file format. Maybe file is large and Google Drive returned HTML instead.
+[2025-10-18 04:05:51] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:05:56] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package
+[2025-10-18 04:05:56] ⚠️ Unsupported file format. Maybe Google Drive returned HTML instead of the archive.
+[2025-10-18 04:10:01] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:10:06] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package.rar
+[2025-10-18 04:10:06] ⚠️ Unsupported file format. Maybe Google Drive returned HTML instead of the archive.
+[2025-10-18 04:11:18] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:11:23] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package.rar
+[2025-10-18 04:11:23] ⚠️ Unsupported file format. Maybe Google Drive returned HTML instead of the archive.
+[2025-10-18 04:13:04] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:13:14] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package.rar
+[2025-10-18 04:13:14] ⚠️ Unsupported file format. Maybe Google Drive returned HTML instead of the archive.
+[2025-10-18 04:15:16] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:16:06] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:16:11] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package_download
+[2025-10-18 04:16:11] 📦 Detected RAR file. Attempting extraction with WinRAR...
+[2025-10-18 04:16:11] 📦 Extracting with WinRAR: website_package_download
+[2025-10-18 04:16:11] 🗂️ RAR file extracted successfully with WinRAR.
+[2025-10-18 04:16:11] ✅ Website extracted successfully to: C:\Users\TGR.H\Desktop\Eazy Studio
+[2025-10-18 04:17:18] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:17:32] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package_download
+[2025-10-18 04:17:32] 📦 Detected RAR file. Attempting extraction with WinRAR...
+[2025-10-18 04:17:32] 📦 Extracting with WinRAR: website_package_download
+[2025-10-18 04:17:32] 🗂️ RAR file extracted successfully with WinRAR.
+[2025-10-18 04:17:32] ✅ Website extracted successfully to: C:\xampp\htdocs\hp3
+[2025-10-18 04:20:54] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:21:12] 🌐 Downloading website package from Google Drive ID: 1y0B90opHvIRQIpCsHLGgKh_J-v4-8Oqk
+[2025-10-18 04:21:16] ✅ Downloaded to: C:\Users\TGR.H\AppData\Local\Temp\website_package_download
+[2025-10-18 04:21:16] 📦 Detected RAR file. Attempting extraction with WinRAR...
+[2025-10-18 04:21:16] 📦 Extracting with WinRAR: website_package_download
+[2025-10-18 04:21:16] 🗂️ RAR file extracted successfully with WinRAR.
+[2025-10-18 04:21:16] ✅ Website extracted successfully to: C:\xampp\htdocs\hp3

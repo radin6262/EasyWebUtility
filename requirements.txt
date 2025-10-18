@@ -1,0 +1,6 @@
+# Only built-in libraries used, no installation required.
+# Optional: if you extend it
+tkinter
+rarfile
+datetime
+gdown
